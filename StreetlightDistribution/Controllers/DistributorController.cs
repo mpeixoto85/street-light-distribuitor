@@ -18,7 +18,7 @@ namespace StreetlightDistribution.Controllers
             _distributor = distributor;
         }
 
-        [HttpPost("LightDistributionResponse")]
+        [HttpGet("LightDistributionResponse")]
         public ActionResult LightDistributionResponse([FromBody] StreetlightRequest neighbourhood)
         {
             if(neighbourhood == null || neighbourhood.Neighbourhood == null)
