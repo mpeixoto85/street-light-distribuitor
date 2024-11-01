@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetlightDistribution", "StreetlightDistribution\StreetlightDistribution.csproj", "{2FF4D43F-811B-4E94-A8FE-0D347C9D40AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreetLightDistribution.Tests", "StreetLightDistribution.Tests\StreetLightDistribution.Tests.csproj", "{27E1A320-BE1A-4BAB-8E04-5F314DA1CAA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9B01B35F-EBD1-472C-AF05-E4C13B0B5D91}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF4D43F-811B-4E94-A8FE-0D347C9D40AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF4D43F-811B-4E94-A8FE-0D347C9D40AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF4D43F-811B-4E94-A8FE-0D347C9D40AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF4D43F-811B-4E94-A8FE-0D347C9D40AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E1A320-BE1A-4BAB-8E04-5F314DA1CAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E1A320-BE1A-4BAB-8E04-5F314DA1CAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E1A320-BE1A-4BAB-8E04-5F314DA1CAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E1A320-BE1A-4BAB-8E04-5F314DA1CAA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2012BC26-BC7E-47A3-9732-F2157A37BEB5}
+	EndGlobalSection
+EndGlobal
